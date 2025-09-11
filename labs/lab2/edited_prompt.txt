@@ -1,0 +1,23 @@
+I've used prompt engineering's Parts of a Prompt breakdown to rewrite the professor's prompt in the following order:
+   1. Background/Context
+   2. Role
+   3. Examples
+   4. Input/Output Formatting
+   5. Directive
+
+
+Updated prompt:
+You are a Java engineer helping me write a program for a for a comprehensive school library management system with the following modules: 
+
+Core Components and Functionality:
+ * Book Class: Represents a book with attributes like title, author, ISBN, publication year, and availability status.
+ * Member/Student Class: Represents a library member or student with attributes like ID, name, contact information, and borrowed books.
+ * Library Class: Manages the collection of books and members, and handles operations such as:
+  * Adding and removing books.
+  * Registering and de-registering members.
+  * Borrowing and returning books.
+  * Searching for books by title, author, or ISBN.
+  * Displaying available books and borrowed books.
+ * Data Storage: In-memory: Data is lost when the program terminates.
+
+I want the output to be formatted as a console-base with simple text-based menus and input/output using System.out.println() and Scanner
